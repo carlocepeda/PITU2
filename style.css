@@ -4,56 +4,6 @@
     text-align: center;
     }
     body{
-        background-color: rgb(255, 254, 254);
+        background-color: rgb(255, 255, 255);
     }
-    #show-modal{
-        text-align: center;
-        background: #4e44b8;
-        padding: 5px 15px;
-        color:white;
-        font-weight: 500;
-        font-size: 1.5em;
-        border-radius: 8px;
-        text-decoration: none;
-        transition: all 0.15s linear;
-    }
-    #show-modal hover{
-cursor: pointer;
-background: #7065E5
-    }
-    .modal{
-        position: fixed;
-        top: -100vh;
-        left: 0;
-        z-index: 99999999;
-        background: rgba(0,0,0,0.85);
-        width: 100vw;
-        height: 100vh;
-        opacity: 0;
-        transition: opacity 0.35s ease;
-    }
-    .modal.content-modal{
-        width: 100%;
-        max-width: 500px;
-        left: 50%;
-        top: -100vh;
-        transition: top 0.35s ease;
-        margin-left: -250px;
-        background: white;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-        border-radius: 5px;
-        z-index: 99999999;
-    }
-    .modal h2{
-        padding: 0.5em;
-        text-align: center;
-        color: #7065e5;
-        margin: 0;
-    }
-    .modal article{
-        color: #7065e5;
-        position: absolute;
-        top: 0.2em;
-        right: 0.375em;
-        margin: 0;
-        }
+   
